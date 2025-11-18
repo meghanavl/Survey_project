@@ -1,0 +1,114 @@
+/* GLOBAL BODY STYLING */
+body {
+    background: rgb(255, 242, 235);
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+/* FORM CONTAINER */
+#surveyForm {
+    border-radius: 30px;
+    border: 1px solid #f5c9cc;
+    background-color: #FFDCDC !important;   /* ← Add this */
+    transition: 0.3s ease-in-out;
+}
+
+
+#surveyForm:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+    transform: scale(1.01);
+}
+
+/* HEADINGS */
+h1, h2 {
+    color: rgb(126, 83, 83);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* FORM LABELS */
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* INPUTS, SELECTS, TEXTAREAS */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    border: 1px solid #615f5f !important;
+    border-radius: 20px !important;
+    padding: 10px !important;
+    transition: 0.2s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #4f73ff !important;
+    box-shadow: 0 0 4px rgba(79, 115, 255, 0.4) !important;
+}
+
+/* CHECKBOX/RADIO SPACING */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+/* SUBMIT BUTTON */
+.btn-primary {
+    background: #faba8f !important;
+    border-color: #dca580 !important;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #90a5ea !important;
+    border-color: #2c4ad0 !important;
+    transform: scale(1.03);
+}
+
+.welcome-btn {
+    background-color: #ff7f50 !important;   /* Coral */
+    border-color: #ff7f50 !important;
+    color: white !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.welcome-btn:hover {
+    background-color: #e86f45 !important;
+    border-color: #e86f45 !important;
+    transform: scale(1.05);
+}
+
+.thankyou-btn {
+    background-color: #7b2cbf !important;  /* Purple */
+    border-color: #7b2cbf !important;
+    color: white !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.thankyou-btn:hover {
+    background-color: #5a1c8f !important;
+    border-color: #5a1c8f !important;
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+    #surveyForm {
+        padding: 20px !important;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
