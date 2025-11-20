@@ -1,14 +1,3 @@
-/* script.fixed.js — corrected and hardened version of your script.js
-
-Changes made:
-- Removed validation for a non-existent `userAdvice` field (your HTML has no advice textarea).
-- Added `e.preventDefault()` to button click handlers to prevent accidental form submission/page reloads.
-- Added console.log debug traces to help confirm listeners attach and fire.
-- Made the "hide errors" lists match IDs that actually exist in your HTML.
-- Small safety checks so missing elements won't throw errors.
-
-Drop this file in place of your current script.js (or copy-paste into it).
-*/
 
 function hideAllSectionsButMoodHidden() {
   // hide the other sections/messages; don't auto-hide mood here because caller decides
@@ -275,6 +264,4 @@ document.addEventListener('DOMContentLoaded', function () {
       }, 700);
     });
   }
-
-  // Optional: restart logic could be added here if desired.
 });

@@ -9,8 +9,8 @@ body {
 /* FORM CONTAINER */
 #surveyForm {
     border-radius: 30px;
-    border: 1px solid #f5c9cc;
-    background-color: #FFDCDC !important;   /* ← Add this */
+    border: 1px solid #F4F4F4;
+    background-color: #1D546C !important;
     transition: 0.3s ease-in-out;
 }
 
@@ -22,7 +22,7 @@ body {
 
 /* HEADINGS */
 h1, h2 {
-    color: rgb(126, 83, 83);
+    color:#0C2B4E;
     font-weight: 700;
     letter-spacing: 0.5px;
 }
@@ -78,7 +78,7 @@ input[type="checkbox"] {
 .welcome-btn {
     background-color: #1D546C !important;
     border-color: #0C2B4E !important;
-    color: white !important;
+    color: #F4F4F4 !important;
     font-weight: 600;
     transition: 0.3s;
 }
