@@ -1,6 +1,6 @@
 /* GLOBAL BODY STYLING */
 body {
-    background: rgb(255, 242, 235);
+    background: #F4F4F4;
     font-family: "Segoe UI", Arial, sans-serif;
     min-height: 100vh;
     padding-bottom: 40px;
@@ -47,7 +47,7 @@ textarea {
 input:focus,
 textarea:focus,
 select:focus {
-    border-color: #4f73ff !important;
+    border-color: #0C2B4E !important;
     box-shadow: 0 0 4px rgba(79, 115, 255, 0.4) !important;
 }
 
@@ -60,8 +60,8 @@ input[type="checkbox"] {
 
 /* SUBMIT BUTTON */
 .btn-primary {
-    background: #faba8f !important;
-    border-color: #dca580 !important;
+    background:  #1D546C!important;
+    border-color: #0C2B4E !important;
     padding: 12px;
     border-radius: 20px;
     font-size: 16px;
@@ -70,36 +70,36 @@ input[type="checkbox"] {
 }
 
 .btn-primary:hover {
-    background: #90a5ea !important;
-    border-color: #2c4ad0 !important;
+    background: #256a87 !important;
+    border-color: #0C2B4E !important;
     transform: scale(1.03);
 }
 
 .welcome-btn {
-    background-color: #ff7f50 !important;   /* Coral */
-    border-color: #ff7f50 !important;
+    background-color: #1D546C !important;
+    border-color: #0C2B4E !important;
     color: white !important;
     font-weight: 600;
     transition: 0.3s;
 }
 
 .welcome-btn:hover {
-    background-color: #e86f45 !important;
-    border-color: #e86f45 !important;
+    background-color: #256a87 !important;
+    border-color: #0C2B4E !important;
     transform: scale(1.05);
 }
 
 .thankyou-btn {
-    background-color: #7b2cbf !important;  /* Purple */
-    border-color: #7b2cbf !important;
+    background-color:#1D546C !important;
+    border-color: #0C2B4E !important;
     color: white !important;
     font-weight: 600;
     transition: 0.3s;
 }
 
 .thankyou-btn:hover {
-    background-color: #5a1c8f !important;
-    border-color: #5a1c8f !important;
+    background-color: #256a87 !important;
+    border-color: #0C2B4E !important;
     transform: scale(1.05);
 }
 
